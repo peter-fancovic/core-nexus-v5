@@ -32,10 +32,10 @@ if check_password():
     
     # Custom CSS pre temný režim a profi vzhľad
     st.markdown("""
-        <style>
-        .stMetric { background-color: #161b22; border: 1px solid #30363d; padding: 15px; border-radius: 10px; }
-        </style>
-        """, unsafe_allow_stdio=True)
+    <style>
+    .stMetric { background-color: #161b22; border: 1px solid #30363d; padding: 15px; border-radius: 10px; }
+    </style>
+    """, unsafe_allow_html=True) # ZMENENÉ NA html
 
     # --- 3. SIDEBAR NAVIGATION ---
     st.sidebar.markdown("### 💠 NEXUS CORE v5.0")
